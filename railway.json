@@ -1,6 +1,9 @@
 {
   "build": {
-    "builder": "python"
+    "builder": "nixpacks"
   },
-  "start": "python bot.py"
+  "nixpacksConfig": {
+    "language": "python",
+    "start": "python bot.py"
+  }
 }
